@@ -1,4 +1,5 @@
 import React from 'react'
+
 import "./navBar.css"
 import { CartWidget } from '../CartWidget/CartWidget'
 export const NavBar = () => {
@@ -9,6 +10,7 @@ export const NavBar = () => {
       <p>Enlace 2</p>
       <p>Enlace 3</p>
       <CartWidget/>
+
     </div>
   )
 }
